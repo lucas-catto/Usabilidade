@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+.high-contrast-button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
