@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro Completo</title>
+    </head>
+    <body>
+        <h1>Cadastro Completo</h1>
+        <form action="#" method="post">
+
+            <section>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+    
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+    
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="data-nascimento" required>
+
+                <label for="genero">Gênero:</label>
+                <section id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </section>
+            </section>
+
+            <section>
+                <h2>Endereço:</h2>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" required>
+
+                <label for="endereco">Endereço:</label>
+                <input type="endereco" id="endereco" required>
+                
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" required>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" pattern="[0-9]{5}-[0-9]{3}" placeholder="12345-678" required>
+            </section>
+
+            <section>
+                <h2>Preferências</h2>
+
+                <label for="">Países que gostaria de conhecer:</label>
+
+                <label for="pais1">
+                    <input type="checkbox" id="pais1" name="paises[]" value="pais1"> Nova Zelândia
+                </label>
+
+                <label for="pais2">
+                    <input type="checkbox" id="pais2" name="paises[]" value="pais2"> Bélgica
+                </label>
+
+                <label for="pais3">
+                    <input type="checkbox" id="pais3" name="paises[]" value="pais3"> Escócia
+                </label>
+            </section>
+
+            <section>
+                <h2>Escolha uma opção:</h2>
+                <label for="Formas de Pagamento:"></label>
+                
+                <label for="pix">
+                    <input type="radio" id="pix" name="opcao" value="pix"> Pix
+                </label>
+                
+                <label for="cartao">
+                    <input type="radio" id="cartao" name="opcao" value="cartao"> Cartão de Débito
+                </label>
+                
+                <label for="pix">
+                    <input type="radio" id="boleto" name="opcao" value="boleto"> Boleto
+                </label>
+            </section>
+
+        </form>
+    </body>
+</html>
